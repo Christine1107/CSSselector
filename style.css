@@ -1,0 +1,54 @@
+*{
+  box-sizing:border-box;
+}
+
+body,html{
+  margin: 0px;
+  padding: 0px;
+  background-image: url("background.jpg");
+}
+.overall{
+
+}
+.headerr{
+  display:flex;
+  box-sizing: border-box;
+}
+
+.flexParent{
+  display:flex;
+
+}
+
+.flexParent div> img{
+  display: flex;
+
+  width:600px;
+  height:600px;
+  justify-content: space-between;
+
+}
+
+img:hover{
+  filter: brightness(0.2);
+}
+
+h1:hover{
+  background-color: white;
+  color:black;
+}
+
+.flexParent div > h1 :hover {
+  background-color: white;
+  color:black;
+}
+
+.flexParent div> h1{
+background-color: black;
+color: white;
+}
+
+.head1 + .head2 + .head3{
+  margin-left: 1vmin;
+  margin-right: 1vmin;
+}
